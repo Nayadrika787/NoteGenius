@@ -1,6 +1,7 @@
 import os
 import re
 import yt_dlp
+print("yt-dlp version:", yt_dlp.version.__version__)
 import whisper
 import google.generativeai as genai
 from docx import Document
