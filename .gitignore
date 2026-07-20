@@ -1,0 +1,29 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual environments
+venv/
+env/
+.env
+
+# Generated output files - never commit these!
+*.docx
+*.mp3
+*.mp4
+temp_audio_*
+
+# Node.js
+frontend/node_modules/
+frontend/dist/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment variables - NEVER commit your API keys!
+.env
+*.env
